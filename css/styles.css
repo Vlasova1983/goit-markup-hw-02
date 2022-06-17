@@ -1,0 +1,148 @@
+:root{
+    --color-text:#212121;
+    --color-fon:#E5E5E5;
+    --color-acsent:#2196F3;
+    --color-buttom:#757575;
+        }
+body {
+background:var(--color-fon);       
+color:var(--color-text) ;
+font-family:Roboto, sans-serif;
+}
+ul {
+    list-style: none
+}
+/* стилизация логотипа в футере и хедере */
+.logo {
+    color:var(--color-text);
+    font-family: 'Raleway';
+    font-weight: 700;
+    line-height: 1,2;
+    font-size:26px;
+}
+.logo-web {
+    color:var(--color-acsent);
+}
+/* Стилизация навигации */
+.site-nav{
+    font-family: Roboto;
+    color:var(--color-text);
+    font-weight: 500; 
+    line-height: 1,14;
+    font-size:14px;
+    }
+.site-nav:hover, .site-nav:focus {
+    color:var(--color-acsent);
+}
+ 
+.site-nav .link.current
+{
+color:var(--color-acsent)
+}
+.link{
+    color:var(--color-text)
+}
+/*Стилизация контактов в футере и хедере  */
+
+.adress {
+    font-family: Roboto;
+    color:var(--color-buttom);
+    font-weight: 500;
+    line-height: 1,14;
+    font-size:14 px ;
+}
+.adress:hover,
+.adress:focus {
+    color: var(--color-acsent);
+}
+.adress.curent {
+    color: var(--color-acsent)
+}
+.adress-street {
+    color: #FFFFFF;
+}
+
+.adress-contact {
+    color: var(--color-buttom);
+}
+/* Стилизация кнопок на главной странице и портфолио */
+.button{
+    font-family: Roboto;
+    color: var(--color-text);
+    background-color:#F5F4FA;
+    font-weight: 700;
+    line-height: 2;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover, .buttom:focus{
+color:#FFFFFF;
+background-color: var(--color-acsent);
+}
+.button.primary{
+    background-color: var(--color-acsent);
+    color:#FFFFFF;
+   
+}
+.button.secondery{
+    background-color:#F5F4FA;
+    color: var(--color-text);}
+
+    /* стилизация блока с заказом услуги */
+    .baner{
+    font-weight: 900;
+    line-height:1,4;
+    font-size: 44px;
+    background: #2F303A;
+    color: #FFFFFF;
+    }
+
+    /* стилизация особенностей студии */
+.studio-titel{
+    font-weight: 700;
+    line-height: 2;
+    font-size:14px;
+}
+.studio-text{
+    color: var(--color-buttom);
+    font-weight: 400;
+    line-height: 1,7;
+    font-size:14px;
+}
+/* стилизация чем мы занимаемся */
+.work-studio{
+    font-weight: 700;
+    line-height: 1,16;
+    font-size:36px;
+}
+/* стилизация раздела команда */
+.comanda{
+    font-weight: 700;
+    line-height: 1,16;
+    font-size:36px;
+}
+
+.comanda-fio {
+    line-height: 1,2;
+    font-size:16px;
+}
+
+.profeshion{
+color: var(--color-buttom);
+line-height: 1,2;
+font-size:16px;
+}
+
+/* стилизация раздела наши работы страница портфолио */
+.work-titly {
+    font-weight: 700; 
+    line-height: 1,4;
+    font-size:18px;
+}
+.types-works{
+color: var(--color-buttom);
+font-weight: 400;
+line-height: 2;
+font-size:16px;
+}
+
